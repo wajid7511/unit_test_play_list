@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{57C75D1F-903B-4EE2-BEAB-F15C3714A9BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestPractices", "Tests\UnitTestPractices\UnitTestPractices.csproj", "{29151EDF-6094-4004-A562-40D91D239E5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53252020-6587-4D63-A493-54DD582F26FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQl.API", "src\GraphQl.API\GraphQl.API.csproj", "{8F3D4604-45F5-424D-BC33-120F5A931D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQl.Abstraction", "src\GraphQl.Abstraction\GraphQl.Abstraction.csproj", "{491D2512-E4A3-4C9B-9D7A-2E29CEBDBF43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQl.Core", "src\GraphQl.Core\GraphQl.Core.csproj", "{8268985D-11B8-475B-B1E7-4E30E13AD73B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQl.DataBase", "src\GraphQl.DataBase\GraphQl.DataBase.csproj", "{A66FFCC0-707E-4300-B321-7CD9EA806467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQl.Common", "src\GraphQl.Common\GraphQl.Common.csproj", "{D5B39B1E-9E60-40B8-873E-AF3B776F3043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQl.Mappers", "src\GraphQl.Mappers\GraphQl.Mappers.csproj", "{12C1BC46-8A16-4428-9F12-DC3CF5E81E25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29151EDF-6094-4004-A562-40D91D239E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29151EDF-6094-4004-A562-40D91D239E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29151EDF-6094-4004-A562-40D91D239E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29151EDF-6094-4004-A562-40D91D239E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3D4604-45F5-424D-BC33-120F5A931D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3D4604-45F5-424D-BC33-120F5A931D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3D4604-45F5-424D-BC33-120F5A931D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3D4604-45F5-424D-BC33-120F5A931D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491D2512-E4A3-4C9B-9D7A-2E29CEBDBF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491D2512-E4A3-4C9B-9D7A-2E29CEBDBF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491D2512-E4A3-4C9B-9D7A-2E29CEBDBF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491D2512-E4A3-4C9B-9D7A-2E29CEBDBF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8268985D-11B8-475B-B1E7-4E30E13AD73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8268985D-11B8-475B-B1E7-4E30E13AD73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8268985D-11B8-475B-B1E7-4E30E13AD73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8268985D-11B8-475B-B1E7-4E30E13AD73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66FFCC0-707E-4300-B321-7CD9EA806467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66FFCC0-707E-4300-B321-7CD9EA806467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66FFCC0-707E-4300-B321-7CD9EA806467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66FFCC0-707E-4300-B321-7CD9EA806467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B39B1E-9E60-40B8-873E-AF3B776F3043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B39B1E-9E60-40B8-873E-AF3B776F3043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B39B1E-9E60-40B8-873E-AF3B776F3043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B39B1E-9E60-40B8-873E-AF3B776F3043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C1BC46-8A16-4428-9F12-DC3CF5E81E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C1BC46-8A16-4428-9F12-DC3CF5E81E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C1BC46-8A16-4428-9F12-DC3CF5E81E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C1BC46-8A16-4428-9F12-DC3CF5E81E25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29151EDF-6094-4004-A562-40D91D239E5A} = {57C75D1F-903B-4EE2-BEAB-F15C3714A9BE}
+		{8F3D4604-45F5-424D-BC33-120F5A931D6F} = {53252020-6587-4D63-A493-54DD582F26FF}
+		{491D2512-E4A3-4C9B-9D7A-2E29CEBDBF43} = {53252020-6587-4D63-A493-54DD582F26FF}
+		{8268985D-11B8-475B-B1E7-4E30E13AD73B} = {53252020-6587-4D63-A493-54DD582F26FF}
+		{A66FFCC0-707E-4300-B321-7CD9EA806467} = {53252020-6587-4D63-A493-54DD582F26FF}
+		{D5B39B1E-9E60-40B8-873E-AF3B776F3043} = {53252020-6587-4D63-A493-54DD582F26FF}
+		{12C1BC46-8A16-4428-9F12-DC3CF5E81E25} = {53252020-6587-4D63-A493-54DD582F26FF}
+	EndGlobalSection
+EndGlobal
