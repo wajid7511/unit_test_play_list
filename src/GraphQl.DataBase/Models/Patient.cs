@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GraphQl.DataBase.Models
 {
+    [Table("Patients")]
     public class Patient : DbBaseModel
     {
         [Key]

@@ -32,7 +32,7 @@ public class GraphQlUnitTestDatabaseContext : DbContext
         if (!optionsBuilder.IsConfigured)
         {
             optionsBuilder.UseSqlServer(
-                "Server=localhost; Database=GraphQlUnitTest; User ID=SA;Password=P@YOURPASSWORD;TrustServerCertificate=true;"
+                "Server=localhost; Database=GraphQlUnitTest; User ID=SA;Password=YOURPASSWORD;TrustServerCertificate=true;"
             );
         }
     }

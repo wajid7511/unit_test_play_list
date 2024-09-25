@@ -52,7 +52,6 @@ public static class ServiceCollectionExtensions
     public static IServiceCollection AddGraphQl(this IServiceCollection services)
     {
         services
-            .AddDbContext<GraphQlUnitTestDatabaseContext>()
             .AddGraphQLServer()
             .AddMutationType<Mutation>()
             .AddTypeExtension<PatientMutation>()

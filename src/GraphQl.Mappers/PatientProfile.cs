@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using GraphQl.Abstraction.Patients.Models;
+using GraphQl.API.Models;
 using GraphQl.DataBase.Models;
 
 namespace GraphQl.Mappers;
@@ -12,5 +13,8 @@ public class PatientProfile : Profile
             .ForMember(m => m.Id, opt => opt.Ignore())
             .ForMember(m => m.CreatedOn, opt => opt.Ignore())
             .ForMember(m => m.LastUpdateTime, opt => opt.Ignore());
+
+        CreateMap<Patient, PatientSchema>()
+        .ForAllMembers(opt => opt.ExplicitExpansion());
     }
 }

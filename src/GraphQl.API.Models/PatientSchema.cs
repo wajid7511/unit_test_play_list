@@ -1,6 +1,4 @@
-using System;
-
-namespace GraphQl.API.Schemas;
+﻿namespace GraphQl.API.Models;
 
 public class PatientSchema
 {

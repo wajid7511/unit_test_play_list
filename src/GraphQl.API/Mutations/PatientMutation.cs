@@ -1,18 +1,17 @@
-using System;
 using AutoMapper;
 using GraphQl.Abstraction.Patients;
 using GraphQl.Abstraction.Patients.Models;
 using GraphQl.API.Inputs;
-using GraphQl.API.Schemas;
+using GraphQl.API.Models;
 using GraphQl.DataBase;
 
 namespace GraphQl.API.Mutations;
-
+[ExtendObjectType<Mutation>]
 public class PatientMutation
 {
     public async ValueTask<IQueryable<PatientSchema>> AddProduct(
            PatientInput request,
-             GraphQlUnitTestDatabaseContext databaseContext,
+          [Service] GraphQlUnitTestDatabaseContext databaseContext,
            [Service] IMapper mapper,
            [Service] IPatientManager productManager
        )

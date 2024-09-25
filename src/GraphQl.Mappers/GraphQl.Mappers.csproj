@@ -13,5 +13,6 @@
   <ItemGroup>
     <ProjectReference Include="..\GraphQl.Abstraction\GraphQl.Abstraction.csproj" />
     <ProjectReference Include="..\GraphQl.DataBase\GraphQl.DataBase.csproj" />
+    <ProjectReference Include="..\GraphQl.API.Models\GraphQl.API.Models.csproj" />
   </ItemGroup>
 </Project>
