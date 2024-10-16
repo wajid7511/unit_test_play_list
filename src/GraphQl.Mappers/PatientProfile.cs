@@ -15,6 +15,7 @@ public class PatientProfile : Profile
             .ForMember(m => m.LastUpdateTime, opt => opt.Ignore());
 
         CreateMap<Patient, PatientSchema>()
+        .ForMember(m => m.CreationDateTime, opt => opt.MapFrom(src => src.CreatedOn))
         .ForAllMembers(opt => opt.ExplicitExpansion());
     }
 }
