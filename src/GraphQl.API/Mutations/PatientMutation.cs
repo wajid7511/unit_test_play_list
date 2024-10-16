@@ -9,7 +9,7 @@ namespace GraphQl.API.Mutations;
 [ExtendObjectType<Mutation>]
 public class PatientMutation
 {
-    public async ValueTask<IQueryable<PatientSchema>> AddProduct(
+    public async ValueTask<IQueryable<PatientSchema>> AddPatient(
            PatientInput request,
           [Service] GraphQlUnitTestDatabaseContext databaseContext,
            [Service] IMapper mapper,
